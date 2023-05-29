@@ -31,6 +31,17 @@ class pekerja: virtual public orang{
 		}
 };
 
+	class budi :public pekerja, public pelajar {
+	public:
+
+		budi(int pumur) :
+			pekerja(pUmur),
+			pelajar(pUmur),
+			orang(pUmur) // Hal ini dapat dilakukan jika menggunakan virutual
+		{
+		}
+};
+
 
 
 };
