@@ -10,11 +10,11 @@ public:
 class derrivedClass : public baseClass {
 public:
     void perkenalan() {
-
+        cout << "Halo saya function dari derived Class";
     }
 };
-
-int main()
+int main() {
+}
 {
     std::cout << "Hello World!\n";
 }
