@@ -39,9 +39,14 @@ class pekerja: virtual public orang{
 			pelajar(pUmur),
 			orang(pUmur) // Hal ini dapat dilakukan jika menggunakan virutual
 		{
+
 		}
 };
 
+	int main() {
+		budi(12);
 
+		return 0;
+	}
 
 };
